@@ -9,3 +9,6 @@ SUPER_REDIS_PORT = int(os.getenv('SUPER_REDIS_PORT', '6379'))
 SUPER_PREFIX = os.getenv('SUPER_PREFIX', '.')
 
 SUPER_TIMEZONE = os.getenv('SUPER_TZ', 'Europe/Rome')
+
+SUPER_F1TV_API = os.getenv('SUPER_F1TV_API')
+SUPER_F1_NOTIFY_CHANNEL = os.getenv('SUPER_F1_NOTIFY_CHANNEL')
